@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #ff5a17;
+}
+
+/*CONTENEDOR*/
+
+.wallpaper{
+/*background-image: url("fashion-sunglasses-icon-white-06@2x");*/
+/* backgorund-size: auto 100%; */
+height: calc(100vh - 30px);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+
+/*ANIMACIÓN*/
+
+.fadeIn {
+ 
+  animation: fadeIn 10s 1;
+
+}
+
+@keyframes fadeIn {
+ 
+  0%{
+    opacity: 0;
+  }
+  
+  50% {
+    opacity: 0.3;
+  } 
+
+  70% {
+    opacity: 0.6;
+  } 
+}
+
+/*BOTÓN INGRESAR*/
+
+.ingresar {
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 3rem;
+  border: 2px solid;
+  /* y-axis value for border-radius */
+  border-radius: .5rem;
+}
+
+.ingresar:hover{
+  background-color: #ffffff;
+  color: #ff5a17;
+}
+
+/*LEYENDA*/
+
+p{
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
