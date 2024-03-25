@@ -3,20 +3,26 @@
   padding: 0;
 }
 
-body{
+/* body{
   background-color: #ff5a17;
-}
+} */
 
 /*CONTENEDOR*/
 
 .wallpaper{
 /*background-image: url("fashion-sunglasses-icon-white-06@2x");*/
 /* backgorund-size: auto 100%; */
-height: calc(100vh - 45px);
+/* height: calc(100vh - 45px);
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: column;
+flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff5a17;
 }
 
 a{
@@ -48,6 +54,10 @@ a{
 
 /*BOTÓN INGRESAR*/
 
+.segundo-div{
+text-align: center;
+}
+
 .ingresar {
   background-color: transparent;
   font-size: 1.2rem;
@@ -72,3 +82,5 @@ p{
     text-align: center;
     color: #ffffff;
 }
+
+/*////////////////////////////////////////////////*/
